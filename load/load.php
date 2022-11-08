@@ -1,7 +1,7 @@
 <?php
-
-function lego_template($template_name){
-    include __DIR__."/../lego_templates/$template_name.php";
+function load_templates($loadfile){
+    include "templates/$loadfile.php";
 }
 
 ?>
+

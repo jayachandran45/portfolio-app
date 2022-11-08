@@ -1,6 +1,6 @@
-
 <?php
 include 'load/load.php';
+
 ?>
 
 <!DOCTYPE html>
@@ -13,10 +13,11 @@ include 'load/load.php';
     <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/album/">
     <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/sign-in/">
-   
+
 
     <style>
  
+
 
 .form-signin {
   max-width: 330px;
@@ -46,10 +47,9 @@ include 'load/load.php';
 <?load_templates('header')?>
 <?load_templates('login')?>
 
-
-
-
-
+<?php
+print_r($_POST);
+?>
 
 
 <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
