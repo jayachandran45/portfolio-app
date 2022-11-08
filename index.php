@@ -50,7 +50,9 @@ include 'load/load.php';
 
 
 
-
+<?php
+//for git test
+?>
 
 <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
 </body>
