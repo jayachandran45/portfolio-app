@@ -5,3 +5,6 @@ function load_templates($loadfile){
 
 ?>
 
+<?php
+// to test git 
+?>
